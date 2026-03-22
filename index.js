@@ -622,7 +622,7 @@ app.put("/api/return-asset/:id", verifyToken, async (req, res) => {
   }
 });
 
-// ============= USER ROUTES =============
+// ============= USER ROUTES ===========
 
 // Get User Profile
 app.get("/api/user/profile", verifyToken, async (req, res) => {
