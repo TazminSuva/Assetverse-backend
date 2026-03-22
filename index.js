@@ -724,7 +724,7 @@ app.get("/api/stats", async (req, res) => {
   }
 });
 
-// ============= HEALTH CHECK ========
+// ======== HEALTH CHECK ========
 app.get("/api/health", (req, res) => {
   res.json({ status: "✅ Server is running", timestamp: new Date() });
 });
