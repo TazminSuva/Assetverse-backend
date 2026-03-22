@@ -662,7 +662,7 @@ app.put("/api/user/profile", verifyToken, async (req, res) => {
   }
 });
 
-// ============= PUBLIC APIS =============
+// ============= PUBLIC APIS ========
 
 // Get Packages
 app.get("/api/packages", async (req, res) => {
