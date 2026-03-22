@@ -729,7 +729,7 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "✅ Server is running", timestamp: new Date() });
 });
 
-// ============= ERROR HANDLING =====
+// ======= ERROR HANDLING =====
 app.use((err, req, res, next) => {
   console.error("Error:", err);
   res.status(500).json({ message: "Internal server error", error: err.message });
