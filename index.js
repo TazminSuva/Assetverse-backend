@@ -552,7 +552,7 @@ app.put("/api/requests/:id/reject", verifyToken, verifyHR, async (req, res) => {
   }
 });
 
-// ============= EMPLOYEE ROUTES =============
+// ============= EMPLOYEE ROUTES ==========
 
 // Get My Assets (Employee)
 app.get("/api/my-assets", verifyToken, async (req, res) => {
